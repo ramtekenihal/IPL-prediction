@@ -31,4 +31,4 @@ def match_winner():
 
 
 if __name__ == '__main__':
-	app.run(host='https://iplmatchresultprediction.herokuapp.com/')
+	app.run(host='0.0.0.0')
