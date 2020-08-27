@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prediction</title>
+	<link rel="stylesheet" type="text/css" href="/static/home.css">
+</head>
+<body>
+	<div class="outer_container">
+		<!-- <h3 style="text-align: center;">winner</h3> -->
+		{% if result[0] == 1 %}
+		<h3>Team1 has more probability of winning</h3>
+		{% elif result[0] == 0 %}
+		<h2>Team2 has more probability of winning</h2>
+		{% endif %}
+	</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+
+.outer_container{
+
+	
+	padding-left: 200px;
+	padding-right: 200px;
+	width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.title{
+	
+	text-align: center;
+}
+
+.match{
+	
+	text-align: center;
+}
+
+form{
+
+	text-align: center;
+}
+
+.pred_submit{
+
+	padding-top: 10px;
+}
