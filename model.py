@@ -7,7 +7,7 @@ from sklearn.svm import SVC
 
 def predict(features):
 	#training data
-	ipl_data = pd.read_csv('../iplmldata.csv')
+	ipl_data = pd.read_csv('iplmldata.csv')
 
 	#features
 	X = ipl_data.drop('team1_win',axis=1)
